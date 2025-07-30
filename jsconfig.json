@@ -1,0 +1,30 @@
+// 配置路径别名 vscode 配置
+{
+  "include": [
+    "./app/**/*"
+  ],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": [
+        "app/pages/*"
+      ],
+      "@common/*": [
+        "app/pages/common/*"
+      ],
+      "@widgets/*": [
+        "app/pages/widgets/*"
+      ],
+      "@store/*": [
+        "app/pages/store/*"
+      ],
+      "@/*": [
+        "app/*"
+      ],
+      "@widgets-self/*": [
+        "app/pages/widgets/*"
+      ]
+    }
+  }
+}
