@@ -1,10 +1,11 @@
 import { useRoutes, useNavigate } from 'react-router-dom';
-import HeaderContainer from '@widgets/header-container-react/HeaderContainer';
+import HeaderContainer from '@widgets/header-container/HeaderContainer';
 import { Button } from 'antd';
-import { SettingOutlined, DownOutlined } from 'antd-design-icons';
+import { SettingOutlined, DownOutlined } from '@ant-design/icons';
 import { useSchema } from './hooks/useSchema';
 import $curl from '@common/curl-react';
 import Test from '@widgets-self/test.jsx';
+
 
 export default function Page3({ routes }) {
   const [testCount, setTestCount] = useState(0);

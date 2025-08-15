@@ -4,3 +4,4 @@ package-lock.json
 config.local.js 
 app/public/dist
 app/types/auto-imports.d.ts
+logs

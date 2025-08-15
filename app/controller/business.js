@@ -4,7 +4,7 @@ module.exports = (app) => {
       resolve()
     }, ms))
   }
-  const BaseController = require('@bumblebee-honey/tikitaka-react').controller.base(app)
+  const BaseController = require('@bumblebee-honey/tikitaka').controller.base(app)
   return class BusinessController extends BaseController {
     async getList(ctx) {
       const { business: BusinessService } = app.service

@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  const BaseService = require('@bumblebee-honey/tikitaka-react').service.base(app)
+  const BaseService = require('@bumblebee-honey/tikitaka').service.base(app)
   const getDefaultList = (projectKey) => {
     return [{
       productId: '1',
